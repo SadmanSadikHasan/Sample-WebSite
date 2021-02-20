@@ -1,0 +1,355 @@
+body {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: auto;
+}
+body #page {
+	/*background: url("/static/images/bg-home.jpg") repeat scroll center top #000000}});*/
+	background-image: url('/static/images/bg-home.jpg');
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	width: auto;
+	z-index: 3;
+}
+#header {
+	background: url("images/bg-transparent1.png") repeat;
+	margin: 0;
+	min-height: 60px;
+	padding: 0;
+	width: auto;
+}
+#header div {
+	margin: 0 auto;
+	max-width: 940px;
+	min-height: 60px;
+	padding: 0 10px;
+}
+#header div a.logo {
+	display: block;
+	float: left;
+	height: 60px;
+	margin: 0 44px 0 0;
+	padding: 0;
+	width: 304px;
+}
+#header div a img {
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+#header div ul {
+	display: inline-block;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+#header div ul li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+#header div ul li a {
+	color: #ffffff;
+	display: block;
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 59px;
+	margin: 0;
+	min-height: 60px;
+	padding: 0 24px;
+	text-align: center;
+	text-transform: uppercase;
+	width: auto;
+}
+#header div ul li a:hover {
+	background-color: #620031;
+	color: #ffffff;
+}
+
+
+#body.home .header {
+	background: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	width: 100%;
+}
+#body.home .header div {
+	margin: 0 auto;
+	max-width: 940px;
+	overflow: hidden;
+	padding: 0 10px;
+    position: relative;
+    
+}
+
+
+
+
+
+
+#body.about .header {
+	background: url("images/bg-about.jpg") no-repeat center top #000000;
+	margin: 0;
+	min-height: 455px;
+	padding: 0;
+	width: 100%;
+}
+#body.about .header div, #body .header div {
+	margin: 0 auto;
+	max-width: 960px;
+	overflow: hidden;
+	padding: 65px 0 40px;
+}
+#body.about .header div h1, #body .header div h1 {
+	color: #FFFFFF;
+	display: block;
+	font-family: audiowide-regular-webfont;
+	font-size: 36px;
+	font-weight: normal;
+	line-height: 36px;
+	margin: 0 auto 87px;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+	width: 940px;
+}
+#body.about .header div h2 {
+	color: #FFFFFF;
+	display: block;
+	font-family: audiowide-regular-webfont;
+	font-size: 32px;
+	font-weight: normal;
+	line-height: 32px;
+	margin: 0 auto 24px;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+	width: 820px;
+}
+#body.about .header div p {
+	color: #ffffff;
+	display: block;
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	width: 820px;
+}
+#body.about .body {
+	background-color: #620031;
+	margin: 0;
+	min-height: 253px;
+	overflow: hidden;
+	padding: 0;
+	width: 100%;
+}
+#body.about .body div {
+	margin: 0 auto;
+	max-width: 940px;
+	overflow: hidden;
+	padding: 36px 10px 35px;
+}
+#body.about .body div h2 {
+	color: #A3A3A3;
+	float: left;
+	font-size: 23px;
+	font-weight: normal;
+	line-height: 23px;
+	margin: 18px 0 26px;
+	padding: 0;
+	text-align: left;
+	text-transform: uppercase;
+	width: 620px;
+}
+#body.about .body div p {
+	color: #ffffff;
+	display: block;
+	float: left;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	width: 620px;
+}
+#body.about .body div img {
+	display: block;
+	float: right;
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+#body.about .footer {
+	background-color: #000000;
+	margin: 0;
+	min-height: 366px;
+	padding: 0;
+	width: 100%;
+}
+#body.about .footer div {
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 79px 0 0 10px;
+	width: 950px;
+}
+#body.about .footer div h2 {
+	color: #A3A3A3;
+	float: right;
+	font-family: audiowide-regular-webfont;
+	font-size: 23px;
+	font-weight: normal;
+	line-height: 23px;
+	margin: 34px 0 24px;
+	padding: 0;
+	text-align: left;
+	text-transform: uppercase;
+	width: 557px;
+}
+#body.about .footer div p {
+	color: #ffffff;
+	display: block;
+	float: right;
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0 auto;
+	padding: 0;
+	text-align: left;
+	width: 557px;
+}
+#body.about .footer div img {
+	float: left;
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+
+
+
+
+
+
+
+
+#footer {
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+#footer .connect {
+	background-color: #a3a3a3;
+	margin: 0;
+	min-height: 84px;
+	overflow: hidden;
+	padding: 0;
+	width: auto;
+}
+#footer .connect div {
+	margin: 0 auto;
+	max-width: 960px;
+	overflow: hidden;
+	padding: 24px 0 0;
+}
+#footer .connect div h1 {
+	color: #FFFFFF;
+	float: left;
+	font-family: audiowide-regular-webfont;
+	font-size: 23px;
+	font-weight: normal;
+	line-height: 23px;
+	margin: 0;
+	padding: 8px 25px 0 0;
+	text-align: right;
+	text-transform: uppercase;
+	width: 525px;
+}
+#footer .connect div div {
+	float: left;
+	margin: 0;
+	overflow: hidden;
+	padding: 0 0 0 20px;
+	width: 380px;
+}
+#footer .connect div div a {
+	background: url("images/icons.png") no-repeat;
+	display: block;
+	float: left;
+	height: 36px;
+	margin: 0;
+	padding: 0;
+	text-indent: -99999px;
+	width: 18px;
+}
+#footer .connect div div a.facebook {
+	background-position: 0 0;
+	margin: 0 0 0 16px;
+	width: 18px;
+}
+#footer .connect div div a.twitter {
+	background-position: 0 -114px;
+	margin: 0 0 0 28px;
+	width: 44px;
+}
+#footer .connect div div a.googleplus {
+	background-position: 0 -38px;
+	margin: 0 0 0 27px;
+	width: 37px;
+}
+#footer .connect div div a.pinterest {
+	background-position: 0 -76px;
+	margin: 0 0 0 29px;
+	width: 30px;
+}
+#footer .connect div div a.facebook:hover {
+	background-position: -20px 0;
+}
+#footer .connect div div a.twitter:hover {
+	background-position: -46px -114px;
+}
+#footer .connect div div a.googleplus:hover {
+	background-position: -38px -38px;
+}
+#footer .connect div div a.pinterest:hover {
+	background-position: -32px -76px;
+}
+#footer .footnote {
+	background-color: #FFFFFF;
+	margin: 0;
+	min-height: 84px;
+	overflow: hidden;
+	padding: 0;
+	width: auto;
+}
+#footer .footnote div {
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 34px 0 0;
+	width: 960px;
+}
+#footer .footnote div p {
+	color: #000000;
+	display: block;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+	width: 940px;
+}
